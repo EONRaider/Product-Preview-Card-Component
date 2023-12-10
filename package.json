@@ -1,0 +1,39 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "description": "A brief description of the project",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EONRaider/Project-Repo.git"
+  },
+  "author": "EONRaider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EONRaider/Project-Repo/issues"
+  },
+  "homepage": "https://github.com/EONRaider/Project-Repo#readme",
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2",
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
