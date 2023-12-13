@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EONRaider/Project-Repo.git"
+    "url": "git+https://github.com/EONRaider/Project-Name.git"
   },
   "author": "EONRaider",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EONRaider/Project-Repo/issues"
+    "url": "https://github.com/EONRaider/Project-Name/issues"
   },
-  "homepage": "https://github.com/EONRaider/Project-Repo#readme",
+  "homepage": "https://github.com/EONRaider/Project-Name#readme",
   "prettier": {
     "trailingComma": "es5",
     "tabWidth": 2,
