@@ -1,7 +1,7 @@
 {
-  "name": "project-name",
+  "name": "product-preview-card-component",
   "version": "1.0.0",
-  "description": "A brief description of the project",
+  "description": "Product Preview Card Component challenge from Frontend Mentor using HTML5/CSS3",
   "main": "app.js",
   "type": "module",
   "scripts": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EONRaider/Project-Name.git"
+    "url": "git+https://github.com/EONRaider/Product-Preview-Card-Component.git"
   },
   "author": "EONRaider",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EONRaider/Project-Name/issues"
+    "url": "https://github.com/EONRaider/Product-Preview-Card-Component/issues"
   },
-  "homepage": "https://github.com/EONRaider/Project-Name#readme",
+  "homepage": "https://github.com/EONRaider/Product-Preview-Card-Component#readme",
   "prettier": {
     "trailingComma": "es5",
     "tabWidth": 2,
@@ -26,12 +26,12 @@
     "singleQuote": true
   },
   "devDependencies": {
-    "prettier": "^2.6.2",
     "eslint": "^8.11.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "nodemon": "^2.0.20"
+    "nodemon": "^3.0.2",
+    "prettier": "^2.6.2"
   },
   "dependencies": {
     "express": "^4.17.3"

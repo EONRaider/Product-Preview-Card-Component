@@ -15,9 +15,17 @@ html {
 }
 
 /* Remove default margin in favour of better control in authored CSS */
-body, h1, h2, h3, h4, p,
-figure, blockquote, dl, dd {
-  margin-block-end: 0;
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -29,19 +37,6 @@ ol[role='list'] {
 /* Set core body defaults */
 body {
   min-height: 100vh;
-  line-height: 1.5;
-}
-
-/* Set shorter line heights on headings and interactive elements */
-h1, h2, h3, h4,
-button, input, label {
-  line-height: 1.1;
-}
-
-/* Balance text wrapping on headings */
-h1, h2,
-h3, h4 {
-  text-wrap: balance;
 }
 
 /* A elements that don't have a class get default styles */
@@ -58,8 +53,10 @@ picture {
 }
 
 /* Inherit fonts for inputs and buttons */
-input, button,
-textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
@@ -74,3 +71,140 @@ textarea:not([rows]) {
 }
 
 /* === END CSS RESET === */
+/* COMPOSITION */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 600px;
+  height: 450px;
+  display: flex;
+  flex: 0 0 50%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.store {
+  height: 100%;
+  padding: 32px;
+}
+
+.product-pricing {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-shrink: 0;
+  margin-top: 29px;
+}
+
+/* UTILITIES */
+:root {
+  --cream: #f2eae2;
+  --aurometal-saurus: #6c7289;
+  --deep-aquamarine: #3d8168;
+  --gunmetal: #1c232b;
+  --white: #ffffff;
+}
+
+.card > * {
+  flex: 0 0 300px;
+}
+
+.bg-primary {
+  background-color: var(--cream);
+}
+
+.bg-secondary {
+  background-color: var(--white);
+}
+
+.border-r-10px {
+  border-radius: 10px;
+}
+
+.border-r-8px {
+  border-radius: 8px;
+}
+
+/* BLOCK */
+.product-image {
+  background-image: url('../images/image-product-desktop.jpg');
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.product-description__category {
+  color: var(--aurometal-saurus);
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+.product-description__name {
+  color: var(--gunmetal);
+  font-family: 'Fraunces', serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-top: 20px;
+}
+
+.product-description__text {
+  color: var(--aurometal-saurus);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  margin-top: 24px;
+}
+
+.product-pricing__final-price {
+  color: var(--deep-aquamarine);
+  font-family: 'Fraunces', serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.product-pricing__starting-price {
+  color: var(--aurometal-saurus);
+  font-family: 'Montserrat', sans-serif;
+  text-decoration-line: line-through;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 23px;
+  margin-left: 19px;
+}
+
+.btn-add-to-cart {
+  background-color: var(--deep-aquamarine);
+  width: 236px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.btn-add-to-cart__icon {
+  width: 14.385px;
+  height: 16px;
+}
+
+.btn-add-to-cart__text {
+  color: var(--white);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 11.61px;
+}
+
+/* EXCEPTIONS */
