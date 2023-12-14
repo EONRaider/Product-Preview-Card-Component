@@ -10,7 +10,6 @@ This is a solution to the [Project Name](https://www.frontendmentor.io/challenge
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-  - [Run with Docker](#run-with-docker)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -25,8 +24,6 @@ A short description of the project
 
 - [My Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/project-name)
 - [Check the Live Site](https://project-name.netlify.app/)
-
-### Run with Docker
 
 ## My process
 
