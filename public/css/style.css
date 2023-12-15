@@ -176,7 +176,7 @@ body {
   cursor: pointer;
 }
 
-@media (width > 1024px) {
+@media only screen and (width > 1024px) {
   .card {
     flex-direction: row;
     max-width: var(--card-width-desktop);
@@ -213,7 +213,7 @@ body {
   }
 }
 
-@media (width <= 1024px) {
+@media only screen and (width <= 1024px) {
   .card {
     flex-direction: column;
     justify-content: space-between;
