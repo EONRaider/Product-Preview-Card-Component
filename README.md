@@ -20,6 +20,8 @@ A simple project using HTML5 and CSS3 that displays product preview card compone
 
 ### Screenshot
 
+![Product-Preview-Card-Component](https://github.com/EONRaider/Product-Preview-Card-Component/assets/15611424/13f00457-81ca-433e-b056-6ee1c1de6db0)
+
 ### Links
 
 - [My Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-html5css3-product-preview-card-component-S3Uh7vbA-X)
