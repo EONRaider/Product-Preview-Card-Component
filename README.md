@@ -42,3 +42,4 @@ A simple project using HTML5 and CSS3 that displays product preview card compone
 ### What I learned
 
 - For some reason CSS media queries will work perfectly when in a local environment but will break whenever deployed to production unless a targeting similar to `@media only screen` is implemented. I can't tell why, but it works.
+- This was the first time I implemented a multi- to single-column responsive design on Frontend Mentor and it worked as intended.
